@@ -7,19 +7,37 @@
     tools:context="dk.sdu.mmmi.sm1_sem_assignment1.MainActivity">
 
     <TextView
+        android:id="@+id/Latitude_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your location:"
-        android:layout_above="@+id/Location"
+        android:text="Latitude"
+        android:layout_above="@+id/Latitude"
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:id="@+id/Location"
+        android:id="@+id/Latitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="[Location]"
+        android:text="Latitude"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/Longitude_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Latitude"
+        android:layout_centerHorizontal="true"
+        android:text="Longitude" />
+
+    <TextView
+        android:id="@+id/Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Longitude_text"
+        android:layout_centerHorizontal="true"
+        android:text="Longitude"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
     <TextView
