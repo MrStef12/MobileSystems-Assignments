@@ -50,11 +50,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     }
 
     @Override
-    protected void onDestroy() {
+    protected void onStop() {
         client.removeActivityUpdates(pendingIntent);
         unregisterReceiver(activityReceiver);
         apiClient.disconnect();
-        super.onDestroy();
+        super.onStop();
     }
 
     @Override
