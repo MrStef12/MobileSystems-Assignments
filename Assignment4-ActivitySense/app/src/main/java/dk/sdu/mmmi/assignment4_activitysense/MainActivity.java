@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         Log.d(TAG, "onConnected");
         Intent intent = new Intent(this, ActivityRecognizedService.class);
         pendingIntent = PendingIntent.getService(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-        ActivityRecognition.getClient(this).requestActivityUpdates(3000, pendingIntent);
+        ActivityRecognition.getClient(this).requestActivityUpdates(10000, pendingIntent);
     }
 
     @Override
