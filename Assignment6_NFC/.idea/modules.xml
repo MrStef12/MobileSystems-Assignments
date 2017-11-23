@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SM1-SEM-Assignment1.iml" filepath="$PROJECT_DIR$/SM1-SEM-Assignment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment6_NFC.iml" filepath="$PROJECT_DIR$/Assignment6_NFC.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
